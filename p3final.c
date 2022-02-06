@@ -13,10 +13,13 @@ int input(){
 
 int sum(int n){
 
-  int sum=0;
+  int sum=0,i=0;
   
-  for (int i=0; i<=n; i++)
+  for (i=0; i<=n; i++)
   sum += i;
+  for(i=1; i<=n; i++)
+
+  printf("%d+",i);
 
   return sum;
 
@@ -24,7 +27,7 @@ int sum(int n){
 
 void output(int n, int sum){
 
-  printf("sum of first n natural numbers up until %d is %d\n", n, sum);
+  printf("=%d\n", sum);
 
 }
 
